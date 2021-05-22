@@ -1,0 +1,33 @@
+# anchor definitions for later bounding box regression
+# in tensorflow format, y_min x_min y_max x_max
+# file that will be loaded is a dictionary with key as anchor_num and bbox values as a list
+
+anchor1: # square
+  - 0.43
+  - 0.55
+  - 0.83
+  - 0.95
+
+anchor2: # vertical rec1, .55 tall, .3 across
+  - 0.43
+  - 0.55
+  - 0.98
+  - 0.85
+
+anchor3: # vertical rec2, but very close to square, .4 tall, .35 across
+  - 0.43
+  - 0.55
+  - 0.83
+  - 0.90
+
+anchor4: # horizontal rec1, .55 across, .3 tall
+  - 0.43
+  - 0.35
+  - 0.73
+  - 0.90
+
+anchor5: # horizontal rec2, but very close to square, .4 across, .35 tall
+  - 0.43
+  - 0.55
+  - 0.78
+  - 0.95
