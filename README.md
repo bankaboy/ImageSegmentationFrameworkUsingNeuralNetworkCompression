@@ -1,6 +1,6 @@
 ### Image segmentation framework using neural network compression
 
-
+Still a work in progress
 
 
 ##### Steps to run:
